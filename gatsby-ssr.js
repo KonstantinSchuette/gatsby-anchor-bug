@@ -5,3 +5,5 @@
  */
 
 // You can delete this file if you're not using it
+
+// Import React so that you can use JSX in HeadComponents
