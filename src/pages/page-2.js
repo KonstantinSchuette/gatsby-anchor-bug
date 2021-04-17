@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -9,7 +9,9 @@ const SecondPage = () => (
     <SEO title="Page two" />
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <AnchorLink className="text-blue-400 hover:underline" to="/#sample">
+      GO TO ANCHOR
+    </AnchorLink>
   </Layout>
 )
 
